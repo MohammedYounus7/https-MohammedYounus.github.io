@@ -3,39 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mohammed Younus' Portfolio</title>
+    <title>Mohammed Younus | Coding Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        header nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        header nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .projects-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .projects-list li {
+            margin: 10px 0;
+        }
+        .projects-list li a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Portfolio!</h1>
-        <nav>
-            <ul>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <section id="projects">
-        <h2>My Projects</h2>
+
+<header>
+    <h1>Mohammed Younus | Coding Portfolio</h1>
+    <nav>
         <ul>
-            <li><a href="https://github.com/yourusername/Password-Checker">Python Password Checker</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
-    </section>
+    </nav>
+</header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I'm Mohammed Younus, a Level 2 IT student passionate about programming!</p>
-    </section>
+<section id="about">
+    <h2>About Me</h2>
+    <p>Hi, I'm Mohammed Younus, an 18-year-old Level 2 IT student at Harrow College. I have a passion for coding and enjoy learning programming languages such as Python and Java. I am constantly working on projects to develop my skills and expand my knowledge. This portfolio highlights the work I've done so far. I'm always eager to learn more and seek opportunities to grow in the tech industry. </p>
+</section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: Yusufyounus786@icloud.com</p>
-    </section>
+<section id="projects">
+    <h2>Projects</h2>
+    <ul class="projects-list">
+        <li><a href="https://github.com/yourusername/Password-Checker" target="_blank">Python Password Checker</a> - A Python script that checks the strength of a password.</li>
+        <li><a href="https://github.com/yourusername/AnotherProject" target="_blank">Project Name</a> - A brief description of another project you have worked on.</li>
+        <li><a href="https://github.com/yourusername/ProjectTitle" target="_blank">Project Name</a> - Short description of a third project you want to highlight.</li>
+    </ul>
+</section>
 
-    <footer>
-        <p>&copy; 2024 Mohammed Younus</p>
-    </footer>
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:Yusufyounus786@icloud.com">Yusufyounus786@icloud.com</a></p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Mohammed Younus</p>
+</footer>
+
 </body>
 </html>
+
